@@ -1,0 +1,5 @@
+UPDATE public."users"
+	SET
+	name = '{{name_input.text}}',
+	gender = '{{gender_select.selectedOptionValue}}'
+	WHERE id = '{{Table1.selectedRow.id}}';
